@@ -102,19 +102,19 @@ main {
 footer {
     background-color: black;
     color: white;
-    padding: 80px 0;
-    height: 60%;
+    padding: 70px 0;
+    height: 75%;
 }
 
 footer .footer-container {
     display: flex;
     width: 85%;
     margin: auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 footer .footer-container .footer-menu {
-    margin: -5px 30px;
+    margin: 0 10px;
     list-style: none;
     padding: 40px 0;
     font-size: 1em;
@@ -132,25 +132,24 @@ footer .footer-container .footer-menu h2 {
 }
 
 footer .footer-container .footer-sociais {
-    display: flex;
-    
+    display: flex;    
 }
 
 .footer-sociais i {
     margin: 0 15px;
     font-size: 1.6rem;  
-    padding: 50px 5px 0;
+    padding: 50px 5px;
 }
 
 footer .footer-infos {
     display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: flex-end;
-	width: 100%;
-	margin: auto;
 	font-weight: bold;
 	color: #919496;
-	padding-top: 50px;
+
+    margin-left: 80px;
+    width: 92%;
 }
 
 footer .footer-infos ul {
@@ -162,13 +161,15 @@ footer .footer-infos .footer-info-items {
     font-weight: bold;
     color: #919496;
     font-size: 0.8rem;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 footer .footer-infos .direitos .pais {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    justify-content: center;
+    margin-right: 80px;
 }
 
 footer .footer-infos .direitos .pais > .bandeira {
@@ -176,6 +177,7 @@ footer .footer-infos .direitos .pais > .bandeira {
     width: auto;
     display: inline-block;
     margin-left: 10px;
+    justify-content: flex-end;
 }
 
 footer .footer-infos .direitos p {

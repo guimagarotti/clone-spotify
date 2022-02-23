@@ -1,2 +1,138 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav.header-container {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+img {
+    height: 40px;
+    width: auto;
+}
+
+nav.header-container ul {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+
+nav.header-container ul li {
+    display: flex;
+    padding: 0 18px;
+    font-weight: bold;
+}
+
+nav.header-container ul li:nth-child(3) {
+    border-right: 0.6px solid white;
+}
+
+main {
+    background-color: #F0FEFF;
+    background-image: url('../imagens/showcase.webp');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.main-item p {
+    font-size: 1.1rem;
+    padding: 30px 0px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #1ed760;
+    color: white;
+    border: 0;
+    padding: 14px 32px;
+    border-radius: 500px;
+    margin: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+footer .footer-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer .footer-container .footer-menu {
+    margin: 0 30px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+footer .footer-container .footer-menu .footer-menu-item {
+    margin: 25px 0;
+    
+}
+
+footer .footer-container .footer-menu h2 {
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+footer .footer-container .footer-sociais {
+    display: flex;
+}
+
+.footer-sociais i {
+    margin: 0 20px;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+

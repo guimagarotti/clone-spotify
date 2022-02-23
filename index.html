@@ -7,14 +7,15 @@
     <title>Clone Spotify</title>
     <script src="https://kit.fontawesome.com/a512dcbd27.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="logo">
-            <img src="imagens/logo.png" alt="Logo Spotify">
+        <nav class="header-container">
+            <div id="logo"><img src="imagens/logo.png" alt="Logo Spotify"></div>
             <ul>
                 <li>Premium</li>
-                <li>Ajuda</li>
+                <li>Suporte</li>
                 <li>Baixar</li>
                 <li>Inscrever-se</li>
                 <li>Entrar</li>
@@ -23,58 +24,56 @@
     </header>
     
     <main>
-        <div class="container">
-            <div class="conteudo">
-                <h2>Música para todos.</h2>
-                <p>Milhões de músicas à sua escolha. E nem precisa de cartão de crédito</p>
-                <button class="button">
-                    Obtenha o Spotify Free
-                </button>
-            </div>
+        <div class="main-container">
+            <h2>Escutar muda tudo</h2>
+            <p>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</p>
+            <button class="button">
+                Baixe o Spotify Free
+            </button>
         </div>
     </main>
     
     <footer>
-        <div class="conteudo-footer">
-            <img src="imagens/logo.png" alt="Logo Spotify">
-            <ul>
-                <h2>Empresa</h2>
-                <li>Sobre</li>
-                <li>Empregos</li>
-                <li>For the record</li>
-            </ul>
-            <ul>
-                <h2>Comunidades</h2>
-                <li>Para Artistas</li>
-                <li>Desenvolvedores</li>
-                <li>Marcas</li>
-                <li>Investidores</li>
-                <li>Fornecedores</li>
-            </ul>
-            <ul>
-                <h2>Links Úteis</h2>
-                <li>Ajuda</li>
-                <li>Player da Web</li>
-                <li>Aplicativo Móvel Grátis</li>
-            </ul>
-            <div class="sociais">
+        <div class="footer-container">
+            <img src="imagens/logo.png" alt="Logo Spotify" class="logo">
+                <ul class="footer-menu">        
+                    <h2>Empresa</h2>
+                    <li class="footer-menu-item">Sobre</li>
+                    <li class="footer-menu-item">Empregos</li>
+                    <li class="footer-menu-item">For the record</li>
+                </ul>
+                <ul class="footer-menu">
+                    <h2>Comunidades</h2>
+                    <li class="footer-menu-item">Para Artistas</li>
+                    <li class="footer-menu-item">Desenvolvedores</li>
+                    <li class="footer-menu-item">Marcas</li>
+                    <li class="footer-menu-item">Investidores</li>
+                    <li class="footer-menu-item">Fornecedores</li>
+                </ul>
+                <ul class="footer-menu">
+                    <h2>Links Úteis</h2>
+                    <li class="footer-menu-item">Ajuda</li>
+                    <li class="footer-menu-item">Player da Web</li>
+                    <li class="footer-menu-item">Aplicativo Móvel Grátis</li>
+                </ul>
+            <div class="footer-sociais">
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook-f"></i>
             </div>
         </div>
 
-        <div class="footer-sec">
-            <ul>
-                <li>Legal</li>
-                <li>Centro de Privacidade</li>
-                <li>Política de Privacidade</li>
-                <li>Cookies</li>
-                <li>Sobre Anúncios</li>
+        <div class="footer-infos">
+            <ul class="footer-infos-item">
+                <li class="footer-info-items">Legal</li>
+                <li class="footer-info-items">Centro de Privacidade</li>
+                <li class="footer-info-items">Política de Privacidade</li>
+                <li class="footer-info-items">Cookies</li>
+                <li class="footer-info-items">Sobre Anúncios</li>
             </ul>
-            <div class="direitos">
+            <div class="footer-direitos">
                 <div class="pais">
-                    <img src="imagens/brazil.png" alt="Bandeira Brasil">
+                    <img src="imagens/brazil.png" alt="Bandeira Brasil" class="brasil">
                     <p>&copy; 2020 Spotify AB</p>
                 </div>                
             </div>

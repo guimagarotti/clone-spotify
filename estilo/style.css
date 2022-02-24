@@ -48,6 +48,11 @@ nav.header-container ul li {
     font-weight: bold;
 }
 
+nav.header-container ul li:hover {
+    cursor: pointer;
+    color: #1db954;
+}
+
 nav.header-container ul li:nth-child(3) {
     border-right: 0.6px solid white;
 }
@@ -97,6 +102,8 @@ main {
     font-weight: bolder;
     text-transform: uppercase;
     box-shadow: 2px 2px 7px black;
+    transition: all 300ms ease;
+    letter-spacing: 1px;
 }
 
 footer {
@@ -124,6 +131,11 @@ footer .footer-container .footer-menu .footer-menu-item {
     margin: 20px 0;    
 }
 
+footer .footer-container .footer-menu .footer-menu-item:hover {
+    color: #1db954;
+    cursor: pointer;
+}
+
 footer .footer-container .footer-menu h2 {
     color: #919496;
     text-transform: uppercase;
@@ -139,6 +151,12 @@ footer .footer-container .footer-sociais {
     margin: 0 15px;
     font-size: 1.6rem;  
     padding: 50px 5px;
+    height: 10px;
+}
+
+.footer-sociais i:hover {
+    cursor: pointer;
+    color: #1db954;
 }
 
 footer .footer-infos {
@@ -147,7 +165,6 @@ footer .footer-infos {
 	align-items: flex-end;
 	font-weight: bold;
 	color: #919496;
-
     margin-left: 80px;
     width: 92%;
 }
@@ -162,6 +179,11 @@ footer .footer-infos .footer-info-items {
     color: #919496;
     font-size: 0.8rem;
     margin: 0 10px;
+}
+
+footer .footer-infos .footer-info-items:hover {
+    color: #1db954;
+    cursor: pointer;
 }
 
 footer .footer-infos .direitos .pais {
@@ -184,6 +206,11 @@ footer .footer-infos .direitos p {
     justify-content: flex-end;
     align-items: center;
     font-size: 0.8rem;    
+}
+
+footer .footer-infos .direitos p:hover {
+    color: #1db954;
+    cursor: pointer;
 }
 
 

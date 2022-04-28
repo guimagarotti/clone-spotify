@@ -2,7 +2,7 @@
 ## Realizado com apoio do canal [Dicas para Devs](https://www.youtube.com/c/dicasparadevs), no YouTube.
 
 - [Acesse meu LinkedIn](https://www.linkedin.com/in/guilherme-cambi-magarotti-16177522b/)
-- [Link do Projeto](https://guimagarotti.github.io/clone-tinder/)
+- [Link do Projeto](https://guimagarotti.github.io/clone-spotify/)
 
 ## Projeto:
 
